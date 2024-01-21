@@ -1,0 +1,70 @@
+# My Vacation App
+
+## Description
+My Vacation App is a user-friendly application designed to assist users in planning and managing their vacations. It allows users to create vacations, add excursions within those vacations, and view details about both. It's intended to provide a streamlined, intuitive interface to help users organize their trips effectively.
+
+## Purpose
+The primary purpose of My Vacation App is to offer a seamless and organized way for users to plan their vacations. It aims to reduce the hassle associated with managing vacation details and excursions, thereby enhancing the overall vacation experience.
+
+## Getting Started
+
+### Prerequisites
+To run this application, ensure that you have the necessary software and libraries installed, as outlined in the project’s dependency files.
+
+## How to Operate My Vacation App
+
+### Main Menu
+- **Vacation List:** This is the landing screen where all created vacations are listed.
+- **Add Vacation:** Users can add a new vacation by clicking on the '+' button.
+- Users can select an existing vacation from list and make modifications to it or delete it
+
+### Add/Edit Excursion
+- Inside Vacation Details, users can add new excursions or edit existing ones from the excursions list.
+- When adding or editing an excursion, users are required to enter a title and select a date within the vacation start and end dates.
+
+#### To View and Add/Delete Vacations:
+1. Open the app to view the list of vacations.
+2. Click on the "+" button to create a new vacation, entering the necessary details.
+3. To view a vacation, simply click on it in the list.
+4. Once a vacation is selected you will have the option to delete it by clicking on the Delete vacation menu-item in top-right.
+Note: Vacations cannot be deleted if they have associated excursions.
+
+#### To Edit Vacation Details:
+1. From the Vacation Details screen, users can edit the title, hotel, and dates.
+2. Don’t forget to save your changes!
+
+#### To View and Add/delete Excursions:
+1. Inside Vacation Details, view the list of excursions for that vacation.
+2. Click on the "+" button to create a new excursion, entering the title and selecting a date.
+3. To edit an excursion, simply click on it in the list.
+4. Once a vacation is selected you will have the option to delete it by clicking on the Delete vacation menu-item in top-right.
+
+#### To Validate Date Entries:
+1. The app ensures that excursion dates are within the vacation dates during the creation or editing process.
+2. Any invalid date entry will prompt an error message.
+
+#### To Share Vacation Details:
+1. Open the app to view the list of vacations.
+2. Click on any of your available vacations from vacation list.
+3. While in vacation details screen click on the 'Share' menu-item in top right.
+
+#### To set alerts for Vacation dates:
+1. Open the app to view the list of vacations.
+2. Click on any of your available vacations from vacation list.
+3. While in vacation details screen click on the 'Notify' menu-item in top right.
+4. User will be notified on the start or end date of a vacation in vacation details screen.
+
+#### To set an alert for Excursion dates:
+1. Go to Vacation Details page
+2. Click on any of your available excursions from excursion list. This will take you to excursion details page.
+3. While in excursion details screen click on the 'Share' menu-item in top right.
+4. User will be notified on the start of an excursion in excursion details screen.
+
+#### Android versions: 33
+minSdk = 26
+targetSdk = 33
+compileSdk = 33
+
+** Gitlab link: https://gitlab.com/wgu-gitlab-environment/student-repos/jper349/d308-mobile-application-development-android/-/tree/master?ref_type=heads
+
+Project on 'master' branch
